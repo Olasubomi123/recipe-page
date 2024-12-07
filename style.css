@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    height: auto;
+}
+.image img{
+    max-width:425px;
+}
+.food_info{
+    margin: 40px 30px 50px 30px;
+    padding: 5px;
+}
+.food_info h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(83, 74, 74);
+}
+.food_info p{
+    margin-top: 30px;
+    color: grey;
+    font-size: 21px;
+    font-weight: 500;
+}
+.preparation{
+    padding: 25px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(245, 218, 227);
+    border-radius: 20px;
+}
+.preparation h3{
+    margin-left: 50px;
+    color: rgb(175, 76, 93);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.preparation ul li{
+    margin-left: 40px;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 300px;
+    line-height: 20px;
+    color: rgb(95, 95, 95);
+}
+.preparation ul li span{
+ font-weight: 300;
+ word-spacing: 1px;
+ font-size: 20px;
+ color: grey;
+}
+.ingredient{
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.ingredient ul li{
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 300px;
+    line-height: 25px;
+    color: gray;
+}
+.ingredient h2{
+    margin-left: 20px;
+    color: rgb(175, 76, 93);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.instruction{
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.instruction h2{
+    margin-left: 20px;
+    color: rgb(175, 76, 93);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.instruction ol li{
+    margin-left: 40px;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    max-width: 300px;
+    line-height: 30px;
+    color: rgb(95, 95, 95);
+}
+.instruction ol li span{
+    font-weight: 300;
+    word-spacing: 1px;
+    font-size: 21px;
+    color: grey;
+}
+hr{
+   margin: 20px 40px;
+}
+.table div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.table div p{
+    font-size: 23px;
+    color: rgb(175, 76, 93);   
+    font-weight: 700;
+}
+.table div :first-child{
+    font-size: 21px;
+    color: grey;
+    font-weight: 300;
+}
+.nutrition{
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.nutrition h2{
+    margin-left: 20px;
+    color: rgb(175, 76, 93);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.nutrition p{
+    font-size: 21px;
+    font-weight: 300;
+    margin-right: 40px;
+    color: gray;
+    margin-left: 20px;
+}
+
+@media (min-width:500px){
+    body,html{
+        background-color: rgb(236, 198, 211);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        height: 100dvh;
+        padding: 20px;
+        height: auto;
+        max-width: 425px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+    .image img{
+        max-width:400px;
+        border-radius: 20px;
+    }
+    .food_info{
+        margin: 20px 0px 20px 0px;
+    }
+    .food_info h2{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(83, 74, 74);
+    }
+    .food_info p{
+        margin-top: 10px;
+        color: grey;
+        font-size: 15px;
+        font-weight: 00;
+    }
+    .preparation{
+        background-color: rgb(245, 218, 227);
+        margin-left: 0;
+        min-width: 400px;
+        padding: 20px 5px;
+        margin-right: 0;
+    }
+    .preparation h3{
+        margin-left: 0px;
+        color: rgb(175, 76, 93);
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .preparation ul li{
+        font-weight: 500;
+        padding: 5px;
+        font-size: 15px;
+        max-width: 300px;
+        line-height: 20px;
+        color: rgb(95, 95, 95);
+    }
+    .preparation ul li span{
+     font-weight: 300;
+     font-size: 13px;
+     color: grey;
+    }
+    .ingredient{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .ingredient ul li{
+        margin-left: 0px;
+        padding: 5px;
+        font-size: 15px;
+        color: gray;
+    }
+    .ingredient h2{
+        margin-left: 0px;
+        color: rgb(175, 76, 93);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-weight: 300;
+    }
+    .instruction{
+        margin-left: 0px;
+        margin-top: -40px;
+    }
+    .instruction h2{
+        margin-left: 20px;
+        color: rgb(175, 76, 93);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-weight: 300;
+    }
+    .instruction ol li{
+        margin-left: 0px;
+        font-weight: 700;
+        padding: 10px;
+        font-size: 15px;
+        color: rgb(95, 95, 95);
+    }
+    .instruction ol li span{
+        font-weight: 300;
+        font-size: 14px;
+        color: grey;
+    }
+    .nutrition{
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .nutrition h2{
+        margin-left: 20px;
+        color: rgb(175, 76, 93);
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 10px;
+
+    }
+    .nutrition p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-right: 0px;
+        color: gray;
+        margin-left: 15px;
+    }
+    .table div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .table div :first-child{
+        font-size: 15px;
+        color: grey;
+        font-weight: 300;
+    }
+    .table div p{
+        font-size: 15px;
+        color: rgb(175, 76, 93);   
+        font-weight: 700;
+        margin-right: 30px;
+    }
+   
+
+
+} 
+
+
+
